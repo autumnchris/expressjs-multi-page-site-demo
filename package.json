@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-multi-page-site-demo",
+  "version": "1.0.0",
+  "description": "My project for the Basic Informational Site assignment as part of the curriculum for the NodeJS course on The Odin Project.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autumnchris/nodejs-multi-page-site-demo.git"
+  },
+  "author": "autumnchris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/autumnchris/nodejs-multi-page-site-demo/issues"
+  },
+  "homepage": "https://github.com/autumnchris/nodejs-multi-page-site-demo#readme"
+}
