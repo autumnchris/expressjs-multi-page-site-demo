@@ -9,6 +9,10 @@ app.set('view engine', 'ejs');
 
 app.use('/', routes);
 
+app.use((req, res, next) => {
+    res.status(404).render('404.ejs', {page: 'Page not found'});
+});
+
 app.listen(port, console.log(`Server is listening at port ${port}.`));
 
 module.exports = app;
