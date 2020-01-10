@@ -1,5 +1,5 @@
 const express = require('express');
-const routes = require('./routes/index');
+const indexRouter = require('./routes/index');
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -9,7 +9,7 @@ app.set('view engine', 'ejs');
 
 app.use(express.static(`${__dirname}/public`));
 
-app.use('/', routes);
+app.use('/', indexRouter);
 
 app.use((req, res, next) => {
     res.status(404).render('404.ejs', {page: 'Page not found'});
