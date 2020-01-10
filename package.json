@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/autumnchris/nodejs-multi-page-site-demo/issues"
   },
-  "homepage": "https://github.com/autumnchris/nodejs-multi-page-site-demo#readme",
+  "homepage": "https://autumnchris-nodejs-site-demo.herokuapp.com",
   "dependencies": {
     "ejs": "^3.0.1",
     "express": "^4.17.1"

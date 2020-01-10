@@ -9,6 +9,10 @@ My project for the [Basic Informational Site assignment](https://www.theodinproj
 * [EJS](https://ejs.co)
 * CSS3
 
+## Demo
+
+View project demo at [https://autumnchris-nodejs-site-demo.herokuapp.com](https://autumnchris-nodejs-site-demo.herokuapp.com).
+
 ## Installation
 
 ```
