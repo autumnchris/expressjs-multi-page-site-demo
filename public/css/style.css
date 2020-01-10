@@ -1,0 +1,52 @@
+html {
+  background: #e6e6e6;
+}
+
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  color: #006f8e;
+}
+
+nav {
+  padding-top: 15px;
+}
+
+nav a,
+nav a:visited,
+nav a:active,
+nav a:focus {
+  border-bottom: 1px solid #006f8e;
+  font-size: 0.75rem;
+  margin: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  background: #fff;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2rem;
+  padding-top: 35px;
+}
+
+h2 {
+  padding-top: 20px;
+}
+
+footer {
+  background: #fff;
+  bottom: 0;
+  font-size: 0.8rem;
+  left: 0;
+  letter-spacing: 2px;
+  padding: 14px 0;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
