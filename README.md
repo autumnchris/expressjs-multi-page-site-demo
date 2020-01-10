@@ -4,6 +4,11 @@ My project for the [Basic Informational Site assignment](https://www.theodinproj
 
 ---
 
+## Built With
+* [Express.js](https://expressjs.com)
+* [EJS](https://ejs.co)
+* CSS3
+
 ## Installation
 
 ```
