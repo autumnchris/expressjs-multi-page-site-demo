@@ -5,7 +5,6 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "devStart": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,8 +20,5 @@
   "dependencies": {
     "ejs": "^3.0.1",
     "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.2"
   }
 }
