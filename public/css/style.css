@@ -1,5 +1,6 @@
 html {
   background: #e6e6e6;
+  background: linear-gradient(to right, #e6e6e6, #f2f2f2) fixed;
 }
 
 a,
