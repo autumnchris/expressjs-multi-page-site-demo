@@ -1,6 +1,6 @@
 html {
-  background: #e6e6e6;
-  background: linear-gradient(to right, #e6e6e6, #f2f2f2) fixed;
+  background: hsl(0, 0%, 90%);
+  background: linear-gradient(to right, hsl(0, 0%, 90%), hsl(0, 0%, 95%)) fixed;
 }
 
 a,
@@ -27,7 +27,7 @@ nav a:focus {
 }
 
 nav a:hover {
-  background: #fff;
+  background: hsl(0, 0%, 100%);
   text-decoration: none;
 }
 
@@ -41,7 +41,7 @@ h2 {
 }
 
 footer {
-  background: #fff;
+  background: hsl(0, 0%, 100%);
   bottom: 0;
   font-size: 0.8rem;
   left: 0;
