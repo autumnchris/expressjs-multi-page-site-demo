@@ -1,44 +1,29 @@
+/* BASE PAGE STYLES */
+
 html {
-  background: hsl(0, 0%, 90%);
-  background: linear-gradient(to right, hsl(0, 0%, 90%), hsl(0, 0%, 95%)) fixed;
+  background: transparent;
+  box-sizing: border-box;
+  color: hsl(0, 0%, 20%);
+  height: 100%;
+  letter-spacing: 1px;
+  text-align: center;
 }
 
-a,
-a:visited,
-a:hover,
-a:active,
-a:focus {
-  color: #006f8e;
+body {
+  background: hsl(0, 0%, 90%);
+  background: linear-gradient(to right, hsl(0, 0%, 90%), hsl(0, 0%, 95%)) fixed;
+  min-height: 100%;
+  overscroll-behavior: none;
+  padding: 0 20px;
+  position: relative;
 }
 
 nav {
   padding-top: 15px;
 }
 
-nav a,
-nav a:visited,
-nav a:active,
-nav a:focus {
-  border-bottom: 1px solid #006f8e;
-  font-size: 0.75rem;
-  margin: 5px;
-  padding: 5px;
-  text-transform: uppercase;
-}
-
-nav a:hover {
-  background: hsl(0, 0%, 100%);
-  text-decoration: none;
-}
-
-h1 {
-  font-size: 2rem;
-  line-height: 1.1;
-  padding-top: 35px;
-}
-
-h2 {
-  padding-top: 20px;
+main {
+  padding: 40px 0 6rem;
 }
 
 footer {
@@ -51,4 +36,76 @@ footer {
   position: absolute;
   right: 0;
   width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  box-sizing: border-box;
+  margin-top: 0;
+}
+
+/* BASE ELEMENT STYLES */
+
+div,
+header,
+main,
+footer,
+nav {
+  box-sizing: border-box;
+}
+
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  color: #006f8e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus,
+button:focus,
+details:focus,
+input:focus,
+select:focus,
+textarea:focus,
+[tabindex]:focus {
+  box-shadow: 0 0 3px 3px hsla(203, 95%, 62%, 0.8);
+  outline: none;
+}
+
+/* SPECIFIC ELEMENT STYLES */
+
+nav a,
+nav a:visited,
+nav a:hover,
+nav a:active,
+nav a:focus {
+  border-bottom: 1px solid #006f8e;
+  font-size: 0.8rem;
+  margin: 0 5px;
+  padding: 8px;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  background: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 400;
 }
