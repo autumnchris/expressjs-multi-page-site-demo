@@ -8,6 +8,7 @@ My project for the [Basic Informational Site assignment](https://www.theodinproj
 * [Express.js](https://expressjs.com)
 * [EJS](https://ejs.co)
 * CSS3
+* [Normalize.css](https://necolas.github.io/normalize.css)
 
 ## Demo
 
