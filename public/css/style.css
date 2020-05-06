@@ -19,6 +19,16 @@ body {
 }
 
 nav {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
   padding-top: 15px;
 }
 
@@ -91,7 +101,7 @@ nav a:active,
 nav a:focus {
   border-bottom: 1px solid #006f8e;
   font-size: 0.8rem;
-  margin: 0 5px;
+  margin: 0 6px;
   padding: 8px;
   text-transform: uppercase;
 }
