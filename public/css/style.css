@@ -2,6 +2,7 @@
 
 html {
   background: transparent;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   color: hsl(0, 0%, 20%);
   height: 100%;
@@ -11,8 +12,11 @@ html {
 
 body {
   background: hsl(0, 0%, 90%);
+  background: -webkit-gradient(linear, left top, right top, from(hsl(0, 0%, 90%)), to(hsl(0, 0%, 95%))) fixed;
+  background: -o-linear-gradient(left, hsl(0, 0%, 90%), hsl(0, 0%, 95%)) fixed;
   background: linear-gradient(to right, hsl(0, 0%, 90%), hsl(0, 0%, 95%)) fixed;
   min-height: 100%;
+  -ms-scroll-chaining: none;
   overscroll-behavior: none;
   padding: 0 20px;
   position: relative;
@@ -20,14 +24,10 @@ body {
 
 nav {
   display: -webkit-box;
-  display: -moz-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -moz-box-pack: center;
   -ms-flex-pack: center;
-  -webkit-justify-content: center;
   justify-content: center;
   padding-top: 15px;
 }
@@ -54,6 +54,7 @@ h3,
 h4,
 h5,
 h6 {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin-top: 0;
 }
@@ -65,6 +66,7 @@ header,
 main,
 footer,
 nav {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -88,6 +90,7 @@ input:focus,
 select:focus,
 textarea:focus,
 [tabindex]:focus {
+  -webkit-box-shadow: 0 0 3px 3px hsla(203, 95%, 62%, 0.8);
   box-shadow: 0 0 3px 3px hsla(203, 95%, 62%, 0.8);
   outline: none;
 }
