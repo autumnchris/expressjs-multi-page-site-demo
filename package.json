@@ -4,8 +4,8 @@
   "description": "My project for the Basic Informational Site assignment as part of the curriculum for the NodeJS course on The Odin Project.",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server",
+    "start": "node server"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "dependencies": {
     "ejs": "^3.0.1",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
