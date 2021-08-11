@@ -1,7 +1,7 @@
 {
   "name": "nodejs-multi-page-site-demo",
   "version": "1.0.0",
-  "description": "My project for the Basic Informational Site assignment as part of the curriculum for the NodeJS course on The Odin Project.",
+  "description": "An Express.js app that uses a very simple example of Express page routing.",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server",

@@ -1,6 +1,8 @@
 # Node.js Multi-Page Site Demo
 
-My project for the [Basic Informational Site assignment](https://www.theodinproject.com/courses/nodejs/lessons/basic-informational-site) as part of the curriculum for the [NodeJS course](https://www.theodinproject.com/courses/nodejs) on [The Odin Project](https://www.theodinproject.com).
+An Express.js app that uses a very simple example of Express page routing.
+
+Inspired by the [Basic Informational Site assignment](https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs/lessons/basic-informational-site) as part of the curriculum for the [NodeJS](https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs) course on [The Odin Project](https://www.theodinproject.com).
 
 ---
 
