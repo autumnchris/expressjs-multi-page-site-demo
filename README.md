@@ -1,4 +1,4 @@
-# Node.js Multi-Page Site Demo
+# Express.js Multi-Page Site Demo
 
 An Express.js app that uses a very simple example of Express page routing.
 
@@ -15,7 +15,7 @@ Inspired by the [Basic Informational Site assignment](https://www.theodinproject
 
 ## Demo
 
-View project demo at [https://autumnchris-nodejs-site-demo.herokuapp.com](https://autumnchris-nodejs-site-demo.herokuapp.com).
+View project demo at [https://autumnchris-express-site-demo.herokuapp.com](https://autumnchris-express-site-demo.herokuapp.com).
 
 ## Instructions
 
