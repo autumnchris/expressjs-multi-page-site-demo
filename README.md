@@ -15,7 +15,7 @@ Inspired by the [Basic Informational Site assignment](https://www.theodinproject
 
 ## Demo
 
-View project demo at [https://autumnchris-express-site-demo.herokuapp.com](https://autumnchris-express-site-demo.herokuapp.com).
+View project demo at [https://autumnchris-express-multi-page-site-demo.onrender.com](https://autumnchris-express-multi-page-site-demo.onrender.com).
 
 ## Instructions
 
