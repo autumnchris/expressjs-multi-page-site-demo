@@ -8,7 +8,10 @@ Inspired by the [Basic Informational Site assignment](https://www.theodinproject
 
 ## Built With
 * [Express.js](https://expressjs.com)
+* [Node.js](https://nodejs.org/en)
+* JavaScript
 * [EJS](https://ejs.co)
+* HTML5
 * CSS3
 * [Normalize.css](https://necolas.github.io/normalize.css)
 * [nodemon](https://nodemon.io)
