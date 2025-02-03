@@ -60,11 +60,10 @@ a:hover,
 a:active,
 a:focus {
   color: #006f8e;
-  text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:focus,
@@ -99,6 +98,7 @@ nav a:focus {
   font-size: 0.8rem;
   margin: 0 6px;
   padding: 8px;
+  text-decoration: none;
   text-transform: uppercase;
 }
 
